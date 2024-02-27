@@ -2,10 +2,7 @@ import logo from './assets/logo.png';
 import trophy from './assets/1.png'
 import award from './assets/2.png'
 import devices from './assets/3.png'
-import phone from './assets/phone.png'
-import facebook from './assets/facebook.png'
 import footer from './assets/Footer.png'
-import site from './assets/site.png'
 import './App.css';
 
 function App() {
@@ -50,24 +47,6 @@ function App() {
     </div>
     <div style={{backgroundColor:'#f03434',display:'flex',color:'#fff',marginBottom:'.5%',marginLeft:'.5%',marginRight:'.5%',justifyContent:'center',fontSize:'.8rem',paddingTop:'1%',paddingBottom:'3%'}}>
       <img src={footer} alt="" style={{width:'100%'}}/>
-      {/* <div style={{display:'flex', marginRight:'20%'}}>
-        <img src={phone} alt="" style={{height:'50%',marginTop:'4%',marginRight:'2%'}}/>
-        <p>
-          Toll<span style={{color:'#f03434'}}>_</span>free<span style={{color:'#f03434'}}>_</span>18002001234
-        </p>
-      </div>
-      <div style={{display:'flex', marginRight:'20%'}}>
-        <img src={facebook} alt="" style={{height:'50%',marginTop:'4%',marginRight:'2%'}}/>
-        <p>
-          www.facebook.com/cripumps
-        </p>
-      </div>
-      <div style={{display:'flex'}}>
-        <img src={site} alt="" style={{height:'50%',marginTop:'4%',marginRight:'2%'}}/>
-        <p>
-          www.crigroups.com
-        </p>
-      </div> */}
     </div>
       
     </div>
